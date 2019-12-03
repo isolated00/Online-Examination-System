@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+html,body
+{
+	width:100%;
+	height:auto;
+	padding:0;
+	margin:0px;
+	
+}
+/* CSS Document */
+
+.banner-text {
+	width:100%;
+	position:absolute;
+}
+.banner-text h2 {
+	text-align:center;
+	color:#fff;
+	font-size:50px;
+	margin-top:20%;
+}
+.animation-area {
+	background:linear-gradient(to left, #8942a8, #ba382f);
+	width:100%;
+	height:100vh;
+	
+}
+.box-area {
+	position:absolute;
+	top:215px;
+	left:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+.box-area li {
+	position:absolute;
+	display:block;
+	list-style:none;
+	width:25px;
+	height:25px;
+	background:rgba(255,255,255,0.2);
+	animation:animate 20s linear infinite;
+	bottom:-150px;
+}
+.box-area li:nth-child(1) {
+	left:86%;
+	width:80px;
+	height:80px;
+	animation-delay:0s;
+}
+.box-area li:nth-child(2) {
+	left:12%;
+	width:30px;
+	height:30px;
+	animation-delay:1.5s;
+	animation-duration:10s;
+}
+.box-area li:nth-child(3) {
+	left:70%;
+	width:100px;
+	height:100px;
+	animation-delay:5.5s;
+}
+.box-area li:nth-child(4) {
+	left:42%;
+	width:150px;
+	height:150px;
+	animation-delay:0s;
+	animation-duration:15s;
+}
+.box-area li:nth-child(5) {
+	left:65%;
+	width:40px;
+	height:40px;
+	animation-delay:0s;
+	
+}
+.box-area li:nth-child(6) {
+	left:15%;
+	width:110px;
+	height:110px;
+	animation-delay:3.5s;
+}
+@keyframes animate {
+	0% {
+		transform:translateY(0) rotate(0deg);
+		opacity:1;
+	}
+	100% {
+		transform:translateY(-800px) rotate(360deg);
+		opacity:0;
+	}
+}
+
+/*custom*/
+	
+.textboxx{
+	width: 300px;
+
+}
+.countdown{
+	text-align: center;
+	color: red;
+	font-size: 24px;
+}
+.error{
+	text-align: center;
+	font-size: 17px;
+}
+
+.wrap {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+.content {
+    float: left;
+    position: relative;
+    left: -50%;
+}
+.wrap1 {
+    float: left;
+    position: relative;
+    left: 39%;
+
+}
+.bigbutton{
+	width: 200px;
+	height: 50px;
+}
+.reapply{
+position: relative;
+top: 100px;
+right: 35px;
+}
+.act{
+	position: relative;
+	top: 40px;
+	right: 20px;
+}
+.searchbtn{
+	position: relative;
+	left: 310px;
+	bottom: 44px;
+}
+.grade{
+	position: relative;
+	right: 24px;
+}
+.gradehead{
+	text-align: center;
+	color: #196da8;
+}
+.admit{
+	position: relative;
+	bottom: 5px;
+}
+.date{
+	position: relative;
+	right: 55px;
+}
+.smallclock{
+
+	text-align: center;
+	color: red;
+	font-family: all;
+	font-size: 40px;
+	position: relative;
+	top: 250px;
+}
+.wrap2{
+	width: 850px;
+	float: left;
+    position: relative;
+    left: 20%;
+    padding: 30px;
+    border: 2px solid #196da8
+}
+.wrap4{
+	width: 850px;
+	float: left;
+    position: relative;
+    left: 20%;
+    padding: 30px;
+}
+.set{
+	border: 1px solid #196da8;
+}
+.paperinfo
+{
+	font-size: 25px; color:  #196da8;
+	background-color: #c6c6f7;
+	padding: 7px;
+	text-align: center;
+	width: 850px;
+	position: relative;
+	left: 270px;
+}
+.quizSubmit{
+	position: relative;
+	left: 345px;
+	top: 20px;
+	width: 100px;
+	height: 40px;
+}
+.bg 
+{
+	animation:slide 3s ease-in-out infinite alternate;
+	background:linear-gradient(-200deg, #fff 50%, #2D9393 50%);
+	bottom:0;
+	left:-100%;
+	opacity:.5;
+	position:fixed;
+	right:-50%;
+	top:0;
+	z-index:-1;
+}
+.bg2
+{
+	animation-direction:alternate-reverse;
+	animation-duration:4s;
+}
+.bg3
+{
+	animation-duration:5s;
+}
+@keyframes slide
+{
+	0%
+	{
+		transform:translateX(-25%);
+	}
+	100%
+	{
+		transform:translateX(25%);
+	}
+}
+
+
+.animation{
+	height: 600px;
+}
+
+.mech_code{
+	width: 250px;
+}
