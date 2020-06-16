@@ -15,12 +15,12 @@
 										<input type="text"  id="uid" name="uid" required autofocus oninvalid="this.setCustomValidity('Enter Student ID Here')"
 										oninput="this.setCustomValidity('')" style="width: 254px; height: 34px;position: relative;">
 									</div>
-									<input type="button" class="btnSubmit btn btn-primary sendotpp" value="Send OTP" onClick="sendOTP();">
+									<!-- <input type="button" class="btnSubmit btn btn-primary sendotpp" value="Send OTP" onClick="sendOTP();"> -->
 							</div>
 							
-							<div class="container">
+							<!-- <div class="container">
 							<div style="position: relative;left: 180px" class="sendOTP"></div>
-							</div>
+							</div> -->
 							<div class="form-group">     
 								<label class="control-label col-sm-4">Password:</label> 
 								<div class="col-sm-6">    

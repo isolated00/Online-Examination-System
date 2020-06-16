@@ -5,7 +5,7 @@
 <title>Untitled Document</title>
 </head>
 <?php
-$conn=mysqli_connect("localhost","root","","online_exam_db");
+$conn=mysqli_connect("localhost","admin","dP8x@%nKGe","online_exam_db");
 if(!$conn)
 {
 	die('could not connect' . mysql_error());

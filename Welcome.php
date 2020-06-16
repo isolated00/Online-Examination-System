@@ -11,7 +11,7 @@
 
 <body onload="disable()">
 	<script src="sms/jquery-3.2.1.min.js" type="text/javascript"></script>
-	<script src="sms/verification.js"></script>
+	<!-- <script src="sms/verification.js"></script> -->
 
 	<?php include_once 'nav.php' ?>
 
